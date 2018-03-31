@@ -1,0 +1,36 @@
+
+$baseFont:'Ropa Sans', sans-serif;
+$secondFont: 'Roboto', sans-serif;
+
+$baseColor:rgb(209, 32, 38);
+$secondColor:rgb(255, 255, 255);
+$thirdColor: rgb(36, 36, 39);
+$fourthColor: rgb(78, 76, 78);
+
+
+// Font Sizes
+$biggestSize: 40px;
+$bigSize: 30px;
+$regularSize: 20px;
+$smallSize: 16px;
+$tinySize: 14px;
+
+@import "components/setup";
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/mediaquery";
+
+html{
+  font-size: 62.5%;
+  font-family: $baseFont;
+}
+
+img{
+  width: 100%;
+}
+
+.wrapper{
+  width: 1080px;
+  margin: 0 auto;
+}

@@ -2,13 +2,476 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>React Boilerplate</title>
+	<title>HackerYou Cohort 17 Yearbook</title>
 	<link rel="stylesheet" type="text/css" href="/public/styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Ropa+Sans" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div id="app">
-	</div>
+	<header>
+		<div class="headerNavContainer">
+			<div class="headerNavBoxBurger" id="home">
+				<nav role="navigation">
+					<div id="menuToggle">
+						<input type="checkbox" />
+						<span></span>
+						<span></span>
+						<span></span>
+						<ul class="headerNavList" id="menu">
+							<li>
+								<a href="#home">Home</a>
+							</li>
+							<li>
+								<a href="#aboutUs">About us</a>
+							</li>
+							<li>
+								<a href="#staff">Staff</a>
+							</li>
+							<li>
+								<a href="#cohort17">Cohort 17</a>
+							</li>
+							<li>
+								<a href="#message">Message Board</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+		</div>
+		<img class="hackerYouLogo" src="assets/hackeryou.jpg" alt="logo of HackerYou school">
+		</div>
+		<div class="headerContainer" id="home">
+			<h1>HackerYou Yearbook</h1>
+			<h2>Cohort 17 - Clearfix & Chill</h2>
+			<h3>January - March 2018</h3>
+		</div>
+	</header>
+
+	<main>
+		<section class="aboutUs wrapper" id="aboutUs">
+			<h2>About Cohort 17</h2>
+			<h2 class="jello-horizontal">We came, we conquered, we clearfix!</h2>
+			<p>We are the largest bootcamp group to have pass through the halls of HackerYou. We are a varied group of distinct individuals. Through the amazing stewardship of HackerYou, we bonded over the sheer number of hours coded by our entire cohort - an average of 300hrs per person for the duration of nine intensive weeks of immersive web development. </p>
+			<p>We laughed. We adhered to the international 3:34pm coffee break standard. We ate pizzas. We drank on Fridays. We pushed ourselves to our limits so that we can become web developers.</p>
+			<p>Congratulations Cohort 17! We made it!</p>
+		</section>
+		<section class="staff wrapper" id="staff">
+			<div class="staffBox">
+				<h3 class="staffTitle">HackerYou Team</h3>
+			</div>
+			<div class="staffBox">
+				<img src="assets/heather_payne.jpg" alt="photo of Heather Payne">
+				<div class="staffText">
+					<h3>Heather Payne</h3>
+					<h2>CEO</h2>
+					<p>Under Heather's wonderful leadership, HackerYou has built one of the most amazing web development community. HackerYou alumni consistently help one another and mentor the upcoming cohorts.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/RyanChristiani-530x462.jpg" alt="a photo of Ryan Christiani">
+				<div class="staffText">
+					<h3>Ryan Christiani</h3>
+					<h2>CTO</h2>
+					<p>You know that you've been schooled by Ryan when you recognize his infectious laughter and watch him one hand clap. He is a fountain of coding knowledge.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/sylvia.jpg" alt="a photo of Sylvia Nguyen">
+				<div class="staffText">
+					<h3>Sylvia Nguyen</h3>
+					<h2>Lead Instructor</h2>
+					<p>Effervescent and fun, Sylvia makes learning to code into fun and play. We also found out that she is an amazing singer.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/dannyPaton.jpg" alt="a photo of Danny Paton">
+				<div class="staffText">
+					<h3>Danny Paton</h3>
+					<h2>Lead Instructor, Web Development</h2>
+					<p>Danny's take aways will alwasy remain with us. His happy and helpful words of wisdom helped us throughout bootcamp.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/melissa-530x462.jpg" alt="a photo of Melissa">
+				<div class="staffText">
+					<h3>Melissa Carter</h3>
+					<h2>Designer</h2>
+					<p>Melissa has her quicky and quick come backs that will make you want to know more about what she thinks of your projects and work.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/kristenheadshot-530x462.jpg" alt="a photo of Kristen">
+				<div class="staffText">
+					<h3>Kristen Spencer</h3>
+					<h2>Lead Instructor, Web Development</h2>
+					<p>It is no small feat to explain JavaScript in a just-JS way. Kristen has a way of explaining code that just makes so much sense to all of us.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/sarahhamdi-1.jpg" alt="a photo of Sarah Hamdi">
+				<div class="staffText">
+					<h3>Sarah Hamdi</h3>
+					<h2>Lead Instructor, Web Development</h2>
+					<p>Sarah may be grading and watching our codes meticulously but she is also a pillar of strenght and support.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/ChristopherMiller-530x462.jpg" alt="a photo of Christopher Miller">
+				<div class="staffText">
+					<h3>Christopher Miller</h3>
+					<h2>Program + Logistics Manager</h2>
+					<p>How does he keep track of us and still makes us feel like we have his full attention? Christopher's innate ability to care and make sure everything runs smoothly will not be amissed.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/brandon.jpg" alt="a photo of Brandon Keen">
+				<div class="staffText">
+					<h3>Brandon Keen</h3>
+					<h2>Marketing Coordinator</h2>
+					<p>His one liners are exact and perfect. Perhaps also one of the funniest staff at HackerYou.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/sam.jpg" alt="a photo of Sam Low-Chappell">
+				<div class="staffText">
+					<h3>Sam Low-Chappell</h3>
+					<h2>Admissions Coordinator</h2>
+					<p>A quiet but intergral behind the scene mover and shaker. He makes sure that we have all that we need.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/tarrajoshi.jpg" alt="a photo of Tarra Joshi">
+				<div class="staffText">
+					<h3>Tarra Joshi</h3>
+					<h2>Office Manager</h2>
+					<p>She wields the power of what is kept inside the refrigerator or not. Her knowledge of all us is astounding.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/dug.jpg" alt="a photo of Dug the Pug">
+
+				<div class="staffText">
+					<h3>Dug the Pug</h3>
+					<h2>Food Seeker</h2>
+					<p>Ah Dug, the one pug, eating machine. We love him because he's like a sausage but more like a meatball. No bark will come out of him but you'll know he's following you if you hear his heavy breathing. He's a foodie through and through.</p>
+				</div>
+			</div>
+			<div class="staffBox">
+				<img src="assets/leo.jpg" alt="a photo of Leo the sweetest Poodle">
+
+				<div class="staffText">
+					<h3>Leo</h3>
+					<h2>Teddy Bear</h2>
+					<p>The sweetest labradoodle ever to enter the halls of HackerYou. It is just a joy to see Leo wander in and out of classrooms.</p>
+				</div>
+			</div>
+		</section>
+		<section class="groupPhoto">
+			<div class="groupPhotoContainer">
+				<h3>Bootcamp - Cohort 17</h3>
+				<img src="assets/groupcohort17.jpg" alt="">
+			</div>
+		</section>
+		<section class="cohort17 wrapper" id="cohort17">
+			<div class="studentBoxText">
+				<h3 class="studentBoxTitle">Cohort 17</h3>
+			</div>
+			<div class="studentContainer">
+				<div class="studentBox">
+						<img src="assets/2018-Winter-Bootcamp-Aaron-Janke-4.jpg" alt="photo of Aaron Janke">
+						<h3>Aaron Janke</h3>
+						<a href="http://aaronjanke.com/"> <p>http://aaronjanke.com</p></a>
+				</div>
+				<div class="studentBox">
+						<img src="assets/2018-Winter-Bootcamp-Aathavan-Bagawan-2.jpg" alt="photo of Aathavan Bagawan">
+
+					<h3>Aathavan Bagawan</h3>
+					<a href="http://www.aathavan.codes/"><p>http://www.aathavan.codes/</p></a>
+				</div>
+				<div class="studentBox">
+						<img src="assets/2018-Winter-Bootcamp-Anastasiya-Melentyeva-2.jpg" alt="photo of Anastasiya Melentyeva">
+					<h3>Anastasiya Melentyeva</h3>
+					<a href="http://anastasiyacodes.com/"><p>http://anastasiyacodes.com/</p></a>
+				</div>
+				<div class="studentBox">
+						<img src="assets/2018-Winter-Bootcamp-Angeline-Lam-3.jpg" alt="photo of Angeline Lam">
+					<h3>Angeline Lam</h3>
+					<a href="http://www.angelinelam.com/"><p>http://www.angelinelam.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Brent-Carabott-3.jpg" alt="photo of Brent Carabott">
+					<h3>Brent Carabott</h3>
+	
+					<a href="http://brentcarabott.ca"><p>http://brentcarabott.ca</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Callie-Scott-3.jpg" alt="photo of Callie Scott">
+					<h3>Callie Scott</h3>
+					<a href="http://www.calliescott.com/"><p>http://www.calliescott.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Carolyn-McNeillie-4.jpg" alt="photo of Carolyn McNeillie">
+					<h3>Carolyn McNeillie</h3>
+					<a href="http://carolynmcneillie.com"><p>http://carolynmcneillie.com</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Cece-Fan-4.jpg" alt="photo of Cece Fan">
+					<h3>Cece Fan</h3>
+					<a href="http://www.cecefan.com/"><p>http://www.cecefan.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Christina-Laba-4.jpg" alt="photo of Christina Laba">
+					<h3>Christina Laba</h3>
+					<a href="http://christinalaba.com"><p>http://christinalaba.com</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Colin-Mcintyre-2.jpg" alt="photo of Colin Mcintyre">
+					<h3>Colin Mcintyre</h3>
+					<a href="http://colinmcintyre.io/"><p>http://colinmcintyre.io/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Esther-Edell-2.jpg" alt="photo of Esther Edell">
+					<h3>Esther Edell</h3>
+					<a href="http://www.estheredell.com/"><p>http://www.estheredell.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Ferdinand-Ismael-1.jpg" alt="photo of Ferdinand Ismael">
+					<h3>Ferdinand Ismael</h3>
+					<a href="http://ferddecoded.ca"><p>http://ferddecoded.ca</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-James-Finkelstein-4.jpg" alt="photo of James Finkelstein">
+					<h3>James Finkelstein</h3>
+					<a href="http://jamesfinkelstein.com/"><p>http://jamesfinkelstein.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Jason-Du-4.jpg" alt="photo of Jason Du">
+					<h3>Jason Du</h3>
+					<a href="http://jasondu.ca/"><p>http://jasondu.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Jay-Button-2.jpg" alt="photo of Jay Button">
+					<h3>Jay Button</h3>
+					<a href="http://jayveyor.site/"><p>http://jayveyor.site/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Joey-Deol-4.jpg" alt="photo of Joey Deol">
+					<h3>Joey Deol</h3>
+					<a href="http://joeydeol.com"><p>http://joeydeol.com</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Jonathan-Fejtek-1.jpg" alt="photo of Jonathan Fejtek">
+					<h3>Jonathan Fejtek</h3>
+				
+					<a href="http://jfejtek.com/"><p>http://jfejtek.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Jordan-Guy-3.jpg" alt="photo of Jordan Guy">
+					<h3>Jordan Guy</h3>
+		
+					<a href="http://jordanguy.ca/"><p>http://jordanguy.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Justin-Sarrasin-4.jpg" alt="photo of Justin Sarrasin">
+					<h3>Justin Sarrasin</h3>
+					<a href="http://www.justinsarrasin.ca/"><p>http://www.justinsarrasin.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Linda-Zhao-3.jpg" alt="photo of Linda Zhao">
+					<h3>Linda Zhao</h3>
+					<a href="http://www.justinsarrasin.ca/"><p>http://www.justinsarrasin.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Lindsay-Woods-3.jpg" alt="photo of Lindsay Woods">
+					<h3>Lindsay Woods</h3>
+				
+					<a href="http://lindsayw.io/"><p>http://lindsayw.io/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Manon-Rugge-4.jpg" alt="photo of Manon Rugge">
+					<h3>Manon Rugge</h3>
+					<a href="http://www.manonrugge.nl"><p>http://www.manonrugge.nl</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Mark-Visperas-2.jpg" alt="photo of Mark Visperas">
+					<h3>Mark Visperas</h3>
+				
+					<a href="http://www.markvisperas.com/"><p>http://www.markvisperas.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Meagan-Moore-4.jpg" alt="photo of Meagan Moore">
+					<h3>Meagan Moore</h3>
+				
+					<a href="http://mdjm.io/"><p>http://mdjm.io/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Melanie-Phillips-3.jpg" alt="photo of Melanie Phillips">
+					<h3>Melanie Phillips</h3>
+				
+					<a href="http://www.melanie-phillips.com/"><p>http://www.melanie-phillips.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Nadia-Hogg-4.jpg" alt="photo of Nadia Hogg">
+					<h3>Nadia Hogg</h3>
+		
+					<a href="http://nadiahogg.ca/"><p>http://nadiahogg.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Natalie-Ronson-2.jpg" alt="photo of Natalie Ronson">
+					<h3>Natalie Ronson</h3>
+		
+					<a href="http://natalieronson.com/"><p>http://natalieronson.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Natalie-VanDine-1.jpg" alt="photo of Natalie Van Dine">
+					<h3>Natalie van Dine</h3>
+				
+					<a href="http://natvandine.com/"><p>http://natvandine.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Natasha-Teng-4.jpg" alt="photo of Natasha Teng">
+					<h3>Natasha Teng</h3>
+				
+					<a href="http://natashateng.ca/"><p>http://natashateng.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Nishi-Rathod-3.jpg" alt="photo of Nishi Rathod">
+					<h3>Nishi Rathod</h3>
+				
+					<a href="http://nishirathod.com/"><p>http://nishirathod.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Noel-Matta-2.jpg" alt="photo of Noel Matta">
+					<h3>Noel Matta</h3>
+				
+					<a href="http://www.noelmatta.com/"><p>http://www.noelmatta.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Paige-Power-1.jpg" alt="photo of Paige Power">
+					<h3>Paige Power</h3>
+				
+					<a href="http://paigepower.com/"><p>http://paigepower.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Quinn-Anderson-4.jpg" alt="photo of Quinn Anderson">
+					<h3>Quinn Anderson</h3>
+				
+					<a href="http://quinnanderson.ca/"><p>http://quinnanderson.ca/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Robyn-Dalgleish-4.jpg" alt="photo of Robyn Dalgleish">
+					<h3>Robyn Dalgleish</h3>
+				
+					<a href="http://robyndalgleish.com/"><p>http://robyndalgleish.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Ryan-Wong-3.jpg" alt="photo of Ryan Wong">
+					<h3>Ryan Wong</h3>
+					
+					<a href="http://ryanwongonline.com/"><p>http://ryanwongonline.com/</p></a>
+				</div>
+				<div class="studentBox">
+					<img src="assets/2018-Winter-Bootcamp-Thi-Tran-2.jpg" alt="photo of Thi Tran">
+					<h3>Thi Tran</h3>
+					<a href="http://mycupofthi.com/"><p>http://mycupofthi.com/</p></a>
+				</div>
+			</div>	
+		</section>
+		<section class="randomPhoto">
+			<div class="randomPhotoText wrapper">
+				<h3>When you code together, you stay together...</h3>
+			</div>
+			<div class="randomPhotoContainer wrapper">
+				<div class="randomPhotoBox">
+					<img src="assets/barlove.jpg" alt="photo of three pepole at a bar">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/boysbeer.jpg" alt="photo of two people at a bar">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/cheersicebar.jpg" alt="photo of a group of people at icebar">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/crewlove.jpg" alt="photo of people in grafitti alley">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/ferhappy.jpg" alt="photo of a happy person">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/fridaynightdrinks.jpg" alt="photo of a group enjoying a drink">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/groupsofa.jpg" alt="photo of people on a sofa">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/groupworkpeers.jpg" alt="photo of people working in open space">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/icebargroup.jpg" alt="photo of people at ice bar">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/industrydaythumbsup.jpg" alt="photo of people with thumbs up">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/joeymonday.jpg" alt="photo of a person doing charade">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/karaokejam.jpg" alt="photo of two people singing karaoke">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/lasteve.jpg" alt="photo of a group of people ">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/sylviadugthepug.jpg" alt="photo of a pug dog and a girl">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/teacherfunbar.jpg" alt="photo of a group of people at a bar table">
+				</div>
+				<div class="randomPhotoBox">
+					<img src="assets/workinghardreact.jpg" alt="photo of peole working on coding project">
+				</div>
+			</div>
+		</section>
+		<section class="messageBoard" id="message" >
+			<div id="app"></div>
+		</section>
+		<section class="yearBookCommittee"></section>
+	</main>
+	<footer id="contact">
+		<div class="contactInfo">
+			<a href="mailto:hello@angelinelam.com">hello@angelinelam.com</a>
+		</div>
+		<div class="footerIcon">
+			<a href="https://www.linkedin.com/in/angeline-lam-490398b/">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="https://twitter.com/AngelineLam">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a href="https://medium.com/@lam.angeline">
+				<i class="fab fa-medium"></i>
+			</a>
+			<a href="https://medium.com/@lam.angeline">
+				<i class="fab fa-github"></i>
+			</a>
+		</div>
+		<section class="copyright">
+			<p>© Copyright Angeline Lam 2018 | All Rights Reserved.</p>
+		</section>
+		<section class="thank">
+			<p>Photo of staff and students by Pam Lau</p>
+		</section>
+	</footer>
+
+	<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 	<script src="/public/scripts/app.js"></script>
+	<!-- <script>
+	 // Initialize Firebase var config = { apiKey: "AIzaSyDe_d0Pclc-V9J4jB0XahcsK1NmY0Ibnew", authDomain: "cohort17yearbook.firebaseapp.com",
+	databaseURL: "https://cohort17yearbook.firebaseio.com", projectId: "cohort17yearbook", storageBucket: "cohort17yearbook.appspot.com",
+	messagingSenderId: "285245183197" }; firebase.initializeApp(config);
+	</script> -->
 </body>
 </html>

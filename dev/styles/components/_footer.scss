@@ -1,0 +1,58 @@
+footer{
+    margin: 137px 0px;
+    .contactInfo{
+        display: flex;
+        justify-content: center;
+        a{
+            font-family: $baseFont;
+            font-size: $regularSize;
+            color: $thirdColor;
+            padding: 37px 0px;
+        }
+        a:hover,
+        a:focus{
+            color: $baseColor;
+        }
+    }
+    .footerIcon{
+        text-align: center;
+        a{
+            .fa-linkedin-in,
+            .fa-twitter,
+            .fa-medium,
+            .fa-github{
+                font-size: $bigSize;
+                color: $thirdColor;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            .fa-linkedin-in:hover,
+            .fa-twitter:hover,
+            .fa-medium:hover,
+            .fa-github:hover,
+            .fa-linkedin-in:focus,
+            .fa-twitter:focus,
+            .fa-medium:focus,
+            .fa-github:focus{
+                color: $baseColor;
+            }
+        }
+    }
+    .copyright{
+        p{
+            font-family: $baseFont;
+            font-size: $regularSize;
+            color: $thirdColor;
+            text-align: center;
+        }
+    }
+    .thank{
+        p{
+            font-family: $baseFont;
+            font-size: $tinySize;
+            color: $thirdColor;
+            text-align: center; 
+        }
+    }
+}

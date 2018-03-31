@@ -1,0 +1,222 @@
+.aboutUs{
+    padding-bottom: 145px;
+    h2{
+        font-family: $baseFont;
+        font-size: $biggestSize;
+        color: $thirdColor;
+        text-align: center;
+    }
+    p{
+        font-family: $secondFont;
+        font-size: $regularSize;
+        color: $thirdColor;
+        line-height: 1.5;
+    }
+    h2.jello-horizontal{
+        color: $baseColor;
+    }
+}
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 1.5s both;
+	        animation: jello-horizontal 1.5s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+.staff{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .staffBox{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 40px;
+        h3.staffTitle{
+            font-family: $baseFont;
+            font-size: $biggestSize;
+            color: $thirdColor;
+            text-align: center;
+        }
+
+        p{
+            font-family: $secondFont;
+            font-size: $smallSize;
+            line-height: 1.5;
+        }
+
+        h3{
+            font-family: $baseFont;
+            font-size: $regularSize;
+            color: $thirdColor;
+            text-align: left;
+        }
+
+        h2{
+            font-family: $secondFont;
+            font-size: $smallSize;
+            text-decoration: bold;
+        }
+        .staffText{
+            padding: 25px;
+        }
+
+        img{
+            width: 300px;
+            max-height: 400px;
+        }
+    }
+}
+
+.groupPhoto{
+    background: $baseColor;
+    min-height: 800px;
+    padding: 85px 180px;
+  .groupPhotoContainer{
+      h3{
+        font-family: $baseFont;
+        font-size: $biggestSize;
+        color: $secondColor;
+        text-align: center; 
+      }
+      img{
+          width: 1080px;
+          margin-bottom: 87px;
+      }
+  }  
+}
+
+.cohort17{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .studentContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .studentBoxText{
+        display: flex;
+        margin: 93px auto;
+        h3.studentBoxTitle{
+            font-family: $baseFont;
+            font-size: $biggestSize;
+            color: $thirdColor;
+            text-align: center;
+        }
+    }
+    .studentBox{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-bottom: 57px;
+
+        h3{
+            font-family: $secondFont;
+            font-size: $bigSize;
+            color: $thirdColor;
+            margin: 15px auto;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: $secondFont;
+            font-size: $smallSize;
+            color: $thirdColor;
+            margin: 0 auto;
+        }
+    }
+}
+
+.randomPhoto{
+    background: $baseColor;
+    padding-bottom: 115px;
+    .randomPhotoText{
+        h3{
+            font-family: $baseFont;
+            font-size: $biggestSize;
+            color: $secondColor;
+            text-align: center;
+            padding: 97px 0px;
+        }
+    }
+    .randomPhotoContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+        .randomPhotoBox{
+            display: flex;
+            flex-grow: 1;
+            align-self: baseline;
+            img{
+                width: 330px;
+                padding: 15px;
+            }
+        }
+    }
+}
