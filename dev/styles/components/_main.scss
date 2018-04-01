@@ -126,7 +126,7 @@
 
         img{
             width: 300px;
-            max-height: 400px;
+            height: 280px;
         }
     }
 }
@@ -143,7 +143,7 @@
         text-align: center; 
       }
       img{
-          width: 1080px;
+          width: 100%;
           margin-bottom: 87px;
       }
   }  
@@ -190,6 +190,11 @@
             color: $thirdColor;
             margin: 0 auto;
         }
+
+        a:hover,
+        a:focus{
+            color: $baseColor;
+        }
     }
 }
 
@@ -215,7 +220,8 @@
             flex-grow: 1;
             align-self: baseline;
             img{
-                width: 330px;
+                width: 310px;
+                height: 415px;
                 padding: 15px;
             }
         }
@@ -235,18 +241,21 @@
 
     input[type=text]{
         width: 500px;
-        height: 375px;
+        height: 430px;
         border: 2px solid $baseColor;
+        border-radius: 8px;
         font-family: $secondFont;
         font-size: $regularSize;
         color: $thirdColor;
         text-align: top;
+        padding: 30px;
     }
 
     form button{
-        border: 1px solid $thirdColor;
+        border: 2px solid $thirdColor;
         width: 260px;
         height: 67px;
+        border-radius: 8px;
         font-size: $regularSize;
         font-family: $secondFont;
         color: $thirdColor;

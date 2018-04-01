@@ -79,7 +79,7 @@ class App extends React.Component {
           </div>
           <form onSubmit={this.addMessage}>
             <input type="text" name="message" value={this.state.message} onChange={this.handleChange}/>
-            <button>Add message</button>
+            <button>Add a message!</button>
           </form>
           <div className="messageContainerBox">
             {this.state.messages.map((message, i) => {

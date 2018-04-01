@@ -1,0 +1,121 @@
+@media (max-width:1375px){
+    .groupPhoto{
+        padding: 60px 75px;
+    }
+}
+
+@media (max-width:1120px){
+    .aboutUs.wrapper{
+        width: 90%;
+    }
+    .cohort17.wrapper{
+        width: 90%;
+    }
+    .randomPhotoContainer.wrapper{
+        width: 90%;
+        .randomPhotoBox{
+            height: 300px;
+        }
+    }
+    .messageBoard.wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width:1080px){
+    .staff.wrapper{
+        width: 90%;
+    }
+    .groupPhoto{
+        .groupPhotoContainer{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:780px){
+    .groupPhoto{
+        min-height: 500px;
+    }
+}
+
+@media (max-width:675px){
+    .groupPhoto{
+        min-height: 450px;
+        padding: 15px;
+    }
+}
+
+@media (max-width:555px){
+    .messageBoard{
+        input[type=text]{
+            width: 400px;
+            height: 300px;
+            padding: 0px;
+        }
+    }
+}
+
+@media (max-width:445px){
+    .messageBoard{
+        input[type=text]{
+            width: 350px;
+            height: 275px;
+            padding: 0px;
+        }
+    }
+}
+
+@media (max-width:485px){
+    header{
+        .headerContainer{
+            margin-bottom: 115px;
+            min-height: 675px;
+            h1{
+                font-size: 90px;
+            }
+            h2{
+                font-size: 40px;
+            }
+            h3{
+                font-size: 28px;
+            }
+        }
+    }
+
+    .aboutUs.wrapper{
+        width: 90%;
+        h2{
+            font-size: 36px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .groupPhoto{
+        .groupPhotoContainer{
+           h3{
+               font-size: 28px;
+           }
+           img{
+               margin-bottom: 0px;
+           }
+        }
+    }
+}
+
+@media (max-width:400px){
+    header{
+        .headerContainer{
+            h1{
+                font-size: 66px;
+            }
+            h2{
+                font-size: 45px;
+            }
+            h3{
+                font-size: 30px;
+            }
+        }
+    }
+}
