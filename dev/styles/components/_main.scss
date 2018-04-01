@@ -221,3 +221,53 @@
         }
     }
 }
+
+.messageBoard{
+    .messageBoxText{
+        margin: 73px 0px;
+        h3{
+            font-family: $baseFont;
+            font-size: $biggestSize;
+            color: $thirdColor;
+            text-align: center;
+        }
+    }
+
+    input[type=text]{
+        width: 500px;
+        height: 375px;
+        border: 2px solid $baseColor;
+        font-family: $secondFont;
+        font-size: $regularSize;
+        color: $thirdColor;
+        text-align: top;
+    }
+
+    form button{
+        border: 1px solid $thirdColor;
+        width: 260px;
+        height: 67px;
+        font-size: $regularSize;
+        font-family: $secondFont;
+        color: $thirdColor;
+        background: $secondColor;
+        margin: 35px;
+    }
+
+    form button:hover,
+    form button:focus{
+        color: $baseColor;
+        border: 1px solid $baseColor;
+    }
+
+    .messageBox{
+        width: 200px;
+        border: 2px solid $baseColor;
+        border-radius: 8px;
+        font-family: $secondFont;
+        font-size: $regularSize;
+        color: $thirdColor;
+        padding: 20px 35px;
+        margin: 40px;
+    }
+}
